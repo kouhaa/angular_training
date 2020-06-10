@@ -1,0 +1,178 @@
+.time-line {
+  width: 588px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.time-line ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.time-line li {
+  border-top: 1px solid #e6ecf0
+}
+.time-line li:hover {
+  background-color: #f5f8fa;
+}
+
+
+
+.time-line-content {
+  padding: 9px 12px 9px 12px;
+
+}
+
+
+.time-line-content .user-icon {
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+  float: left;
+  margin-top: 3px;
+  margin-right: 12px;
+}
+strong {
+  font-size: 14px;
+  color: #14171a;
+}
+strong:hover {
+  color: #1da1f2;
+  text-decoration: underline;
+}
+.time-line-content span {
+  color: #657786;
+  font-size: 14px;
+}
+.drop-down-icon {
+  width: 12px;
+  float: right;
+  padding-top: 7px;
+  padding-right: 2px;
+}
+.drop-down-icon path {
+  fill: #657786;
+}
+.drop-down-icon:hover path {
+  fill: #4AB3F4;
+}
+
+
+.tweet-text {
+  margin: 0px 0px 0px 60px;
+  font-size: 14px;
+  line-height: 20px;
+
+}
+
+
+.content-footer {
+  margin-left: 60px;
+  height: 18px;
+  margin-top: 10px;
+
+}
+.footer-item {
+  float: left;
+  width: 80px;
+  height: 14px;
+  position: relative;
+  cursor: pointer;
+}
+.footer-item img {
+  height: 14px;
+}
+.reply-icon {
+  height: 14px;
+}
+.reply-icon path {
+  fill: #657786;
+}
+.reply-icon:hover path {
+  fill: #4AB3F4;
+}
+.retweet-icon {
+  height: 13px;
+}
+.retweet-icon path {
+  fill: #657786;
+}
+.retweet-item:hover .retweet-icon path {
+  fill: #17bf63;
+}
+.retweet-item:hover .retweet-number {
+  color: #17bf63;
+}
+.direct-message-icon {
+  height: 13px;
+}
+.direct-message-icon path {
+  fill: #657786;
+}
+.direct-message-icon:hover path {
+  fill: #4AB3F4;
+}
+.footer-item span {
+  font-size: 12px;
+  color: #657786;
+  position: relative;
+  bottom: 2px;
+  left: 8px;
+}
+.good-number {
+  vertical-align: middle;
+  padding-left: 18px;
+}
+
+.heart-animation {
+  position: absolute;
+  background-image: url(../../assets/icons/good_button_animation.png);
+  background-position: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  top: -18px;
+  left: -18px;
+  z-index: 80;
+  cursor: pointer;
+}
+.heart-animation:hover {
+  animation: heart-hover forwards;
+}
+.heart-animation:hover ~ .good-number{
+  color: #e0245e;
+}
+
+@keyframes heart-hover {
+  100% {
+    background-position: -50px 0;
+  }
+}
+@keyframes heart-click {
+  100% {
+    background-position: -1400px 0;
+  }
+}
+
+.check {
+  position: absolute;
+  z-index: 99999;
+  visibility: hidden;
+}
+.check:checked ~ .heart-animation {
+  animation: heart-click .7s steps(28) forwards;
+}
+.check:checked ~ .good-number {
+  color: #e0245e;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  margin: 0px;
+  background-color: #e6ecf0;
+  height: 1000px;
+  font-family: Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.page-contents {
+  padding: 56px 14px 15px 14px;
+  max-width: 1189px;
+  margin: auto;
+}
+
+.left-dashboard {
+  float: left;
+  margin-right: 12px;
+}
+
+.main-contents {
+  float: left;
+}
+
+.right-dashboard {
+  float: left;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 1250px) {
+
+  .page-contents {
+    position: relative;
+    width: 890px;
+  }
+  .right-dashboard {
+    position: absolute;
+    left: 3px;
+    top: 765px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 935px) {
+
+
+
+}
+

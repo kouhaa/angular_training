@@ -1,0 +1,63 @@
+.trends {
+  width: 258px;
+  background-color: #fff;
+  padding: 15px;
+  margin-top: 12px;
+}
+
+.recommend {
+  margin-bottom: 5px;
+  height: 23px;
+}
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0px;
+  vertical-align: top;
+}
+.dot {
+  font-size: 12px;
+  margin: 0px;
+  vertical-align: -15%;
+}
+.change {
+  font-size: 12px;
+  margin: 0px;
+  color: #4AB3F4;
+  vertical-align: -15%;
+  cursor: pointer;
+}
+.change:hover {
+  text-decoration: underline;
+}
+
+.trend-contents {
+
+}
+.trend-contents ul {
+  padding: 0px;
+  margin: 0px;
+}
+.trend-contents ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.trend-contents ul li span {
+  display: block;
+}
+.trend-name {
+  height: 16px;
+  font-size: 14px;
+  color: #1DA1F2;
+  font-weight: 600;
+  cursor: pointer;
+}
+.trend-name:hover {
+  text-decoration: underline;
+}
+.trend-supplement {
+  font-size: 12px;
+  color: #657786;
+  font-weight: 100;
+  cursor: pointer;
+}

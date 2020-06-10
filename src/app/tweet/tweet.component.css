@@ -1,0 +1,41 @@
+.tweet {
+  height: 58px;
+  width: 588px;
+  background-color: #E8F5FD;
+}
+
+.icon img {
+  height: 32px;
+  width: 32px;
+  border-radius: 16px;
+  margin: 13px 10px 13px 27px;
+}
+
+.icon {
+  float: left;
+}
+.tweet-box {
+  float: left;
+  position: relative;
+}
+.tweet-box input {
+  height: 20px;
+  width: 467px;
+  padding: 8px 31px 8px 8px;
+  border-radius: 8px;
+  border: 1px solid #cce6f9;
+  margin-top: 10px;
+}
+
+.tweet-box input::placeholder {
+  color: #4AB3F4;
+  font-size: 14px;
+}
+
+
+.tweet-box img {
+  height: 20px;
+  position: absolute;
+  left: 473px;
+  top: 20px;
+}

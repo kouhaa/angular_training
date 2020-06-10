@@ -1,0 +1,86 @@
+.about {
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.header {
+  height: 90px;
+  width: 256px;
+  padding: 16px 16px 15px 16px;
+  border-bottom: 1px solid #e6ecf0;
+}
+
+
+
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.twitter li {
+  font-size: 12px;
+  color: #657786;
+  text-decoration: none;
+  float: left;
+  padding-right: 8px;
+  height: 18px;
+}
+
+.twitter li :hover {
+  text-decoration-line: underline;
+  color: #1DA1F2;
+  text-decoration-color: #1DA1F2;
+}
+
+.twitter-about li {
+  font-size: 12px;
+  color: #657786;
+  text-decoration: none;
+  float: left;
+  padding-right: 8px;
+  cursor: pointer;
+}
+
+.twitter-about li :hover {
+  text-decoration-line: underline;
+  color: #1DA1F2;
+  text-decoration-color: #1DA1F2;
+}
+
+
+
+#help-center {
+  clear: both;
+  float: left;
+}
+
+#twitter {
+  height: 16px;
+  padding-top: 3px;
+}
+
+
+.footer {
+  padding: 15px 16px 16px 16px;
+  height: 20px;
+  cursor: pointer;
+}
+.footer:hover a {
+  text-decoration: underline;
+}
+.footer img {
+  height: 15px;
+  padding-top: 2px;
+  float: left;
+}
+.footer a {
+  font-size: 12px;
+  color: #4AB3F4;
+  font-weight: lighter;
+  display: block;
+  float: left;
+  padding-left: 6px;
+}
+

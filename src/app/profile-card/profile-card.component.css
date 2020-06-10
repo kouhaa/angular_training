@@ -1,0 +1,91 @@
+.profileCard {
+  height: 213px;
+  width: 288px;
+  position: relative;
+  background-color: #fff;
+}
+
+
+.headerImg img {
+  width: 288px;
+  height: 95px;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+}
+
+.user-icon {
+  height: 68px;
+  width: 68px;
+  border: 3px solid #fff;
+  border-radius: 36px;
+  position: absolute;
+  top: 66px;
+  left: 8px;
+  cursor: pointer;
+}
+
+.user-name {
+  display: block;
+  padding-top: 2px;
+  margin-left: 90px;
+  font-weight: bold;
+  font-size: 18px;
+  height: 26px;
+  cursor: pointer;
+}
+.user-name:hover {
+  text-decoration: underline;
+}
+
+.user-id {
+  font-size: 14px;
+  margin-left: 90px;
+  color: #657786;
+  font-weight: normal;
+  cursor: pointer;
+}
+.user-id:hover {
+  text-decoration: underline;
+}
+
+.user-status {
+  height: 40px;
+  padding: 14px;
+  margin: 0px;
+  cursor: pointer;
+}
+.user-status ul {
+  padding-left: 0px;
+}
+.user-status li {
+  float: left;
+  list-style: none;
+}
+.user-status li:hover .item {
+  color: #1da1f2;
+}
+.user-status li span {
+  display: block;
+}
+.user-status li .item {
+  font-size: 12px;
+  height: 16px;
+  color: #657786;
+  font-weight: bold;
+}
+.user-status li .number {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1DA1F2;
+  padding-top: 3px;
+}
+#tweet {
+  width: 97px;
+}
+#follow {
+  width: 87px;
+}
+#follower {
+  width: 72px;
+}

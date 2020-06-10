@@ -1,0 +1,146 @@
+.recommended-user {
+  padding: 16px 16px 15px 16px;
+  height: 226px;
+  width: 256px;
+  background-color: #fff;
+  border-bottom: 1px solid #e6ecf0;
+
+}
+
+
+h3 {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.title {
+  margin-bottom: 11px;
+}
+.title span {
+  font-size: 12px;
+}
+.update {
+  color: #4AB3F4;
+  cursor: pointer;
+}
+.update:hover {
+  text-decoration: underline;
+}
+.all-show {
+  color: #4AB3F4;
+  cursor: pointer;
+}
+.all-show:hover {
+  text-decoration: underline;
+}
+
+
+.first-user ,.second-user{
+  height: 50px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e6ecf0;
+  position: relative;
+}
+.second-user{
+  margin-top: 10px;
+}
+.third-user {
+  margin-top: 10px;
+
+  height: 50px;
+  padding-bottom: 8px;
+  position: relative;
+}
+.cancel {
+  width: 10px;
+  position: absolute;
+  left: 248px;
+  top: 5px;
+
+}
+.recommended-user-icon {
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+  float: left;
+}
+.about-user {
+  height: 48px;
+  width: 180px;
+  float: left;
+  margin-left: 10px;
+
+}
+.user-name {
+  overflow: hidden;
+
+  /* ▼改行を禁止した上で、はみ出る分量は「…」記号で省略 */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.user-name:hover strong {
+  color: #1da1f2;
+  text-decoration: underline;
+}
+.about-user strong {
+  display: inline-block;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  color: #14171a;
+  height: 16px;
+}
+.about-user span {
+  font-size: 14px;
+  color: #657786;
+}
+.about-user button {
+  border: 1px solid #1DA1F2;
+  cursor: pointer;
+  outline: none;
+  padding: 3px 12px;
+  appearance: none;
+  border-radius: 13px;
+
+
+  background-color: #fff;
+
+  font-weight: bold;
+  margin-top: 4px;
+}
+.about-user button span {
+  width: 72px;
+  height: 14px;
+  font-size: 12px;
+  color: #1DA1F2;
+}
+.about-user button:hover {
+  background-color: #E8F5FD;
+}
+
+
+.find-user {
+  height: 20px;
+  width: 256px;
+  padding: 16px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.find-user img {
+  height: 14px;
+  padding-top: 1px;
+  float: left;
+}
+.find-user div {
+  height: 20px;
+  font-size: 12px;
+  color: #4AB3F4;
+  display: block;
+  float: left;
+  vertical-align: middle;
+  margin-left: 9px;
+}
+.find-user:hover div {
+  text-decoration: underline;
+}

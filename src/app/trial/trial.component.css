@@ -1,0 +1,405 @@
+.navigation-component {
+  height: 46px;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 20;
+  box-shadow: 0px 1px 2px #aaaaaa;
+  font-family: Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.navigation {
+  height: 46px;
+  max-width: 1190px;
+  margin: auto;
+  background-color: #fff;
+  overflow-y: scroll;
+  /* */
+}
+
+
+
+
+
+.contents-table {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.contents-table .icon {
+  float: left;
+  margin: 15px 0 0 14px;
+  height: 23px;
+  width: 23px;
+  display: block;
+}
+.message .icon {
+  margin-top: 16px;
+}
+.contents-table .text {
+  color: #69757e;
+  font-weight: bold;
+  display: block;
+  font-size: 13px;
+  float: left;
+  height: 13px;
+  margin-left: 3px;
+  margin-top: 15px;
+  transition: all .15s ease-in-out;
+
+}
+
+
+
+.home-icon {
+  height: 18px;
+}
+.home-icon path {
+  fill: #1DA1F2;
+  transition: all .15s ease-in-out;
+}
+.moment-icon {
+  height: 18px;
+}
+.moment-icon path {
+  fill: #69757e;
+  transition: all .15s ease-in-out;
+}
+.notification-icon {
+  height: 18px;
+}
+.notification-icon path {
+  fill: #69757e;
+  transition: all .15s ease-in-out;
+}
+.message-icon {
+  height: 16px;
+}
+.message-icon path {
+  fill: #69757e;
+  transition: all .15s ease-in-out;
+}
+
+
+
+
+
+.home {
+  float: left;
+  width: 93px;
+  height: 44px;
+  border-bottom: 2px #1DA1F2 solid;
+}
+.home .text {
+  color: #1DA1F2;
+}
+.moment {
+  float: left;
+  padding-right: 14px;
+  height: 44px;
+}
+.notification {
+  float: left;
+  width: 80px;
+  height: 44px;
+}
+.message {
+  float: left;
+  width: 119px;
+  height: 44px;
+}
+
+
+
+
+.twitter-icon img {
+  height: 20px;
+  padding-top: 15px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  margin: auto;
+  cursor: pointer;
+}
+
+
+.right-action {
+  float: right;
+  margin-left: 15px;
+  padding: 0px;
+  position: relative;
+  z-index: 800;
+}
+.right-action > li {
+  float: left;
+}
+#button {
+  margin-top: 6px;
+}
+#icon {
+  margin-top: 8px;
+}
+.right-action li img {
+  height: 32px;
+  width: 32px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.tweet-button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 7px 17px 7px 17px;
+  appearance: none;
+
+  height: 34px;
+  font-size: 14px;
+  background-color: #4AB3F4;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 100px;
+  margin-left: 16px;
+  /* margin-right: 45px; */
+
+}
+.tweet-button:hover {
+  background-color: #1da1f2;
+}
+
+
+.search {
+  float: right;
+  position: relative;
+}
+
+.search input {
+  height: 14px;
+  width: 175px;
+  margin-top: 7px;
+  border: 1px solid #e6ecf0;
+  padding: 8px 32px 8px 12px;
+  background-color: #f5f8fa;
+  border-radius: 16px;
+  float: left;
+  transition:all .2s ease-in-out;
+}
+.search input::placeholder {
+  font-size: 12px;
+  font-weight: 100;
+}
+.search input[type="text"]:focus {
+  outline: 0;
+  border:2px solid #1DA1F2;
+  background-color: white;
+  padding: 7px 31px 7px 11px;
+}
+.search input[type="text"]:focus::placeholder {
+  color: #a4adb6;
+}
+
+.search-icon {
+  float: left;
+  height: 16px;
+  position: absolute;
+  top: 15px;
+  left: 193px;
+}
+
+.moment:hover .text {
+  color: #1DA1F2;
+}
+.message:hover .text {
+  color: #1DA1F2;
+}
+.notification:hover .text {
+  color: #1DA1F2;
+}
+
+.moment:hover .icon .moment-icon path {
+  fill: #1DA1F2;
+}
+.notification:hover .icon .notification-icon path {
+  fill: #1DA1F2;
+}
+.message:hover .icon .message-icon path {
+  fill: #1DA1F2;
+}
+
+
+
+
+.moment:after {
+  content: '';
+  position: absolute;
+  width: 119px;
+  bottom: 0;
+  transition: all .15s ease-in-out;
+  display: block;
+}
+.moment:hover:after {
+  border-bottom: 2px solid #1DA1F2;
+}
+
+.message:after {
+  content: '';
+  width: 119px;
+  position: absolute;
+  bottom: 0;
+  transition: all .15s ease-in-out;
+  display: block;
+}
+.message:hover:after {
+  border-bottom: 2px solid #1DA1F2;
+}
+
+.notification:after {
+  content: '';
+  width: 80px;
+  position: absolute;
+  bottom: 0;
+  transition: all .15s ease-in-out;
+  display: block;
+}
+.notification:hover:after {
+  border-bottom: 2px solid #1DA1F2;
+}
+
+
+.drop-down-menu {
+  z-index: 7777;
+  position: absolute;
+  top: 41px;
+  right: 0px;
+  clear: both;
+  visibility: hidden;
+}
+.drop-down-design {
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid #ffffff;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  margin-left: 174px;
+  margin-bottom: -2px;
+  filter: drop-shadow(0px -1px 0px #dddddd);
+
+}
+
+.drop-down-menu ul {
+  height: 476px;
+  width: 200px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 3px #aaaaaa;
+  padding-left: 0px;
+  border-radius: 4px;
+  z-index: 8888;
+}
+.menu-user {
+
+  height: 44px;
+  width: auto;
+  padding: 0px 16px;
+
+
+
+}
+.menu-user-name {
+  width: 126px;
+  height: 20px;
+  font-size: 18px;
+
+  display: block;
+}
+.menu-user-id {
+  font-size: 14px;
+  width: auto;
+  color: #657786;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1250px) {
+
+  .navigation {
+    width: 890px;
+  }
+
+}
+
+@media screen and (max-width: 935px) {
+
+  .navigation {
+    width: auto;
+  }
+
+  .home .text {
+    display: none;
+  }
+  li a .text {
+    display: none;
+  }
+  .home {
+    width: 51px;
+  }
+  .notification {
+    width: 51px;
+  }
+  .message {
+    width: 51px;
+  }
+
+  .moment::after {
+    width: 51px;
+  }
+  .notification::after {
+    width: 51px;
+  }
+  .message::after {
+    width: 51px;
+  }
+
+  .search input {
+    width: 93px;
+  }
+  .search-icon {
+    left: 110px;
+  }
+
+  .twitter-icon img {
+    float: left;
+  }
+
+}
+
+/* 1250 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
